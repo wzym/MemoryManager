@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+    <ResourceDictionary.MergedDictionaries>
+
+        <ResourceDictionary Source="../DataTemplates/ControlButtons.xaml" />
+        <ResourceDictionary Source="../DataTemplates/SelectedTagsUnitsTemplate.xaml" />
+        <ResourceDictionary Source="../DataTemplates/CommonSearchTemplate.xaml" />
+        <ResourceDictionary Source="../DataTemplates/UnitTemplate.xaml" />
+        <ResourceDictionary Source="../DataTemplates/EditedUnitTemplate.xaml" />
+
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

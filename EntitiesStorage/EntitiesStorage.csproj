@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <RootNamespace>LazyPersonality.EntitiesStorage</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LazyPersonality_domain\LazyPersonality_domain.csproj" />
+      <ProjectReference Include="..\LazyPersonality_sqlite\LazyPersonality_sqlite.csproj" />
+    </ItemGroup>
+
+</Project>

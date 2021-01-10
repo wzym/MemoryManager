@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Page Update="DataTemplates\CommonSearchTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTemplates\ControlButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTemplates\EditedUnitTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTemplates\SelectedTagsUnitsTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTemplates\UnitTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dictionaries\TemplatesDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dictionaries\ViewModelClasses.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

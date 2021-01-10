@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vms="clr-namespace:ViewModels;assembly=ViewModels">
+    <DataTemplate DataType="{x:Type vms:CommonSearchViewModel}">
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <WrapPanel Grid.Column="0">
+
+            </WrapPanel>
+            <TextBox Grid.Column="1"></TextBox>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>
